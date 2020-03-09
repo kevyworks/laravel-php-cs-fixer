@@ -1,14 +1,9 @@
 <?php
 
-namespace Bgaze\LaravelPhpCsFixer;
+namespace Kevyworks\LaravelPhpCsFixer;
 
 use Illuminate\Support\ServiceProvider as BaseServiceProvider;
 
-/**
- * The package Service Provider
- * 
- * @author bgaze <benjamin@bgaze.fr>
- */
 class ServiceProvider extends BaseServiceProvider {
 
     /**
@@ -18,7 +13,7 @@ class ServiceProvider extends BaseServiceProvider {
      */
     public function boot() {
         // Publish configuration.
-        $this->publishes([__DIR__ . '/config/.php-cs' => base_path('.php-cs')], 'bgaze-php-cs-fixer-config');
+        $this->publishes([__DIR__ . '/config/.php-cs' => base_path('.php-cs')], 'php-cs-fixer-config');
 
         // Register helpers file.
         require __DIR__ . '/helpers.php';

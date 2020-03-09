@@ -1,5 +1,5 @@
 {
-    "name": "bgaze/laravel-php-cs-fixer",
+    "name": "kevyworks/laravel-php-cs-fixer",
     "description": "A PHP-CS-Fixer bridge for use via Artisan CLI on Laravel 5.5+",
     "require": {
         "php": ">=5.6.4",
@@ -9,20 +9,20 @@
     "license": "MIT",
     "authors": [
         {
-            "name": "Bgaze",
-            "email": "benjamin@bgaze.fr"
+            "name": "Kevyworks",
+            "email": "d3@kevyworks.com"
         }
     ],
     "extra": {
         "laravel": {
             "providers": [
-                "Bgaze\\LaravelPhpCsFixer\\ServiceProvider"
+                "Kevyworks\\LaravelPhpCsFixer\\ServiceProvider"
             ]
         }
     },
     "autoload": {
         "psr-4": {
-            "Bgaze\\LaravelPhpCsFixer\\": "src"
+            "Kevyworks\\LaravelPhpCsFixer\\": "src"
         }
     }
 }

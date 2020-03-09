@@ -1,13 +1,11 @@
 <?php
 
-namespace Bgaze\LaravelPhpCsFixer\Console;
+namespace Kevyworks\LaravelPhpCsFixer\Console;
 
 use Illuminate\Console\Command;
 
 /**
  * This Console application describes a rule or ruleset of PHP-CS-Fixer.
- *
- * @author bgaze <benjamin@bgaze.fr>
  */
 class PhpCsFixerDescribe extends Command
 {

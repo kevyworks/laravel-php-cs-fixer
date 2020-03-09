@@ -1,13 +1,11 @@
 <?php
 
-namespace Bgaze\LaravelPhpCsFixer\Console;
+namespace Kevyworks\LaravelPhpCsFixer\Console;
 
 use Illuminate\Console\Command;
 
 /**
  * This console application shows the current PHP-CS-Fixer version.
- *
- * @author bgaze <benjamin@bgaze.fr>
  */
 class PhpCsFixerVersion extends Command
 {

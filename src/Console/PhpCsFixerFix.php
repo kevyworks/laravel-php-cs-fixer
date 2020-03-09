@@ -1,14 +1,12 @@
 <?php
 
-namespace Bgaze\LaravelPhpCsFixer\Console;
+namespace Kevyworks\LaravelPhpCsFixer\Console;
 
 use Exception;
 use Illuminate\Console\Command;
 
 /**
  * This Console application fixes PHP file(s) using PHP-CS-Fixer.
- *
- * @author bgaze <benjamin@bgaze.fr>
  */
 class PhpCsFixerFix extends Command
 {
